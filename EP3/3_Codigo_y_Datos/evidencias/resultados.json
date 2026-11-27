@@ -1,0 +1,84 @@
+{
+ "filas_originales": 114000,
+ "duplicados": 24259,
+ "filas_finales": 89740,
+ "train": 71791,
+ "test": 17949,
+ "resultados": [
+  {
+   "modelo": "Baseline (media global)",
+   "MAE": 17.3201,
+   "RMSE": 20.6373,
+   "Mejora vs baseline": 0.0
+  },
+  {
+   "modelo": "Ridge",
+   "MAE": 16.7355,
+   "RMSE": 20.3024,
+   "Mejora vs baseline": 0.0338
+  },
+  {
+   "modelo": "Random Forest",
+   "MAE": 11.8587,
+   "RMSE": 16.8818,
+   "Mejora vs baseline": 0.3153
+  },
+  {
+   "modelo": "Gradient Boosting",
+   "MAE": 12.1808,
+   "RMSE": 16.7387,
+   "Mejora vs baseline": 0.2967
+  },
+  {
+   "modelo": "Random Forest (sin género)",
+   "MAE": 15.4655,
+   "RMSE": 19.6155,
+   "Mejora vs baseline": 0.1071
+  }
+ ],
+ "mejor": "Random Forest",
+ "mejora_mejor": 0.31532278989357254,
+ "mae_global_mejor": 11.858654798798522,
+ "generos": 113,
+ "generos_sobre_umbral": 30,
+ "peores_generos": [
+  {
+   "genre": "dance",
+   "MAE": 35.46,
+   "count": 189,
+   "ratio": 2.99
+  },
+  {
+   "genre": "electro",
+   "MAE": 34.31,
+   "count": 119,
+   "ratio": 2.89
+  },
+  {
+   "genre": "rock",
+   "MAE": 34.3,
+   "count": 68,
+   "ratio": 2.89
+  },
+  {
+   "genre": "soul",
+   "MAE": 33.35,
+   "count": 89,
+   "ratio": 2.81
+  },
+  {
+   "genre": "pop",
+   "MAE": 30.83,
+   "count": 83,
+   "ratio": 2.6
+  }
+ ],
+ "importancias_rf": {
+  "genre": 0.317,
+  "acousticness": 0.084,
+  "duration_ms": 0.077,
+  "danceability": 0.066,
+  "loudness": 0.064,
+  "valence": 0.063
+ }
+}

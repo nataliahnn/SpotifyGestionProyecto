@@ -1,0 +1,12 @@
+Entregables EP5 y EP6 - Proyecto Spotify (SCY1102-002D)
+Equipo: Natalia Hormazábal, Lucas Concha, Martín Villarroel
+
+Informe_Ejecucion_Monitoreo_Control.docx  Informe (estados al 26 de noviembre, según Jira)
+Presentacion_EP5_EP6_Ejecucion_Spotify.pptx  9 láminas (la 7 tiene el video de Jira), 10 min; el guion está en las notas del orador
+Guion_Presentacion.docx / .md  Guion por integrante, con tiempos
+pipeline.py  Pipeline completo (limpieza, modelos, equidad). Necesita spotify.csv en la misma carpeta
+eda.py, eda_resumen.csv, eda_generos.csv  Análisis exploratorio (tarea GDPS-18)
+jira_backlog_GDPS.csv  Archivo con el que se importó el backlog (ya no refleja los estados actuales)
+metricas_modelos.csv, auditoria_genero.csv, resultados.json, fig_*.png  Evidencias
+
+Pendiente: enlace al repositorio y capturas del tablero de Jira (sección 7 del informe).
